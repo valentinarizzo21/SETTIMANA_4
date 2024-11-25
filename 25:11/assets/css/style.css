@@ -62,9 +62,6 @@ header nav li a::before {
         float: right;
     }
 
-    article h1{
-        font-size: 50px;
-    }
 }
 
 @media screen and (min-width: 576px) {
@@ -82,6 +79,10 @@ header nav li a::before {
     .imageHtml img{
         width: 70px;
         border: 3px solid #a02571;
+    }
+
+    article h1{
+        font-size: 50px;
     }
 }
 

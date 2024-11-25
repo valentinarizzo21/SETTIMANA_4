@@ -43,6 +43,25 @@ header nav li a::before {
     content: "\22c6\0020";
 }
 
+@media screen and (min-width: 1200px){
+    header{
+        text-align: left;
+    }
+
+    header p, header nav{
+        padding-top: 2rem;
+    }
+
+    header div, p, nav{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    nav{
+        float: right;
+    }
+}
+
 @media screen and (min-width: 576px) {
     header ul li{
         display: inline;
@@ -121,19 +140,20 @@ iframe {
 
     section{
         border-radius: 20px;
+        width: fit-content;
     }
 
     iframe, section{
         display: inline-block;
         vertical-align: top;
         width: 45%;
+        margin: 0;
         height: 250px;
-        margin: 3rem 1rem;
     }
 
     .videoBox{
-        width: fit-content;
-        margin: 0 auto;
+        max-width: fit-content;
+        margin: 2rem auto;
     }
 }
 

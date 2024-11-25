@@ -46,11 +46,16 @@ header nav li a::before {
 @media screen and (min-width: 1200px){
     header{
         text-align: left;
-        height: 12vh;
+        height: fit-content;
+    }
+
+    header div img,
+    header div p{
+        margin-bottom: 0;
     }
 
     header p, header nav{
-        padding-top: 2rem;
+        padding-top: 2.5rem;
     }
 
     header div, p, nav{

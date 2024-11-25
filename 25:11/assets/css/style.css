@@ -43,6 +43,23 @@ header nav li a::before {
     content: "\22c6\0020";
 }
 
+@media screen and (min-width: 576px) {
+    header ul li{
+        display: inline;
+    }
+
+    .imageHtml{
+        max-width: fit-content;
+        line-height: 0;
+        border: 3px solid #00A0C6;
+    }
+
+    .imageHtml img{
+        width: 70px;
+        border: 3px solid #a02571;
+    }
+}
+
 /* MAIN */
 main {
     background-color: #fff;
@@ -141,6 +158,15 @@ button {
     border: 0;
     color: white;
     font-weight: bold;
+}
+
+@media screen and (min-width: 576px){
+    section h2{
+        font:normal;
+        font-weight: bold;
+        font-style: normal;
+        background-color: #a3a3a3;
+    }
 }
 
 /* ELEMENTI NELL' ASIDE */

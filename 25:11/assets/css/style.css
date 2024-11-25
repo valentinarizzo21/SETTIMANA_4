@@ -316,3 +316,9 @@ footer a {
     }
 
 }
+
+@media print{
+    header, footer {
+        display: none;
+    }
+}

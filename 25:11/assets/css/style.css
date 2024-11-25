@@ -46,6 +46,7 @@ header nav li a::before {
 @media screen and (min-width: 1200px){
     header{
         text-align: left;
+        height: 12vh;
     }
 
     header p, header nav{
@@ -60,6 +61,10 @@ header nav li a::before {
     nav{
         float: right;
     }
+
+    article h1{
+        font-size: 50px;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -71,6 +76,7 @@ header nav li a::before {
         max-width: fit-content;
         line-height: 0;
         border: 3px solid #00A0C6;
+        margin: 1rem 0;
     }
 
     .imageHtml img{
@@ -146,7 +152,7 @@ iframe {
     iframe, section{
         display: inline-block;
         vertical-align: top;
-        width: 45%;
+        width: 500px;
         margin: 0;
         height: 250px;
     }
@@ -238,6 +244,33 @@ aside div p:last-child {
     margin-bottom: 0;
     font-size: 0.8em;
     text-align: right;
+}
+
+@media screen and (min-width: 1200px){
+    aside{
+        text-align: center;
+    }
+    
+    aside div{
+        width: 320px;
+        height: fit-content;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    aside div p:last-child{
+        display: grid;
+    }
+
+    aside div, p{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .articolBoxes{
+        max-width: fit-content;
+        margin: 0 auto;
+    }
 }
 
 

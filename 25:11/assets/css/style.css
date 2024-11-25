@@ -149,6 +149,18 @@ iframe {
         width: fit-content;
     }
 
+    section p{
+        font-size: 18px;
+    }
+
+    section h2, section p{
+        margin-bottom: 4rem;
+    }
+
+    section form input{
+        width: 80%;
+    }
+
     iframe, section{
         display: inline-block;
         vertical-align: top;
@@ -265,11 +277,6 @@ aside div p:last-child {
     aside div, p{
         display: inline-block;
         vertical-align: top;
-    }
-
-    .articolBoxes{
-        max-width: fit-content;
-        margin: 0 auto;
     }
 }
 

@@ -231,6 +231,12 @@ button {
         text-transform: none;
         background-color: #a3a3a3;
     }
+
+    .treBox{
+        background-color: transparent;
+        border: none;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 992px){

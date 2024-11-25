@@ -162,10 +162,20 @@ button {
 
 @media screen and (min-width: 576px){
     section h2{
-        font:normal;
-        font-weight: bold;
-        font-style: normal;
+        text-transform: none;
         background-color: #a3a3a3;
+    }
+}
+
+@media screen and (min-width: 992px){
+    main article h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    main article table{
+        text-align: center;
+        margin: 3rem auto;
     }
 }
 

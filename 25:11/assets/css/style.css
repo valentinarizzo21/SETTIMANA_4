@@ -181,7 +181,13 @@ footer a {
 }
 
 
-
+@media screen and (min-width: 0px){
+    .treBox{
+        background-color: transparent;
+        border: none;
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 576px) {
     header ul li{
@@ -201,7 +207,7 @@ footer a {
     }
 
     article h1{
-        font-size: 50px;
+        font-size: 55px;
     }
 
     section h2{
@@ -209,11 +215,6 @@ footer a {
         background-color: #a3a3a3;
     }
 
-    .treBox{
-        background-color: transparent;
-        border: none;
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 992px){
@@ -273,7 +274,7 @@ footer a {
     iframe, section{
         display: inline-block;
         vertical-align: top;
-        width: 500px;
+        width: 550px;
         margin: 0;
         height: 250px;
     }
@@ -309,8 +310,6 @@ footer a {
     .treBox{
         margin: 0 auto;
         padding: 0;
-        background-color: transparent;
-        border: none;
         width: max-content;
         font-size: 0;
     }

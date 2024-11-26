@@ -213,6 +213,7 @@ footer a {
 
     article h1{
         font-size: 55px;
+        z-index: 1;
     }
 
     article h1 span{
@@ -220,7 +221,7 @@ footer a {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
-        padding: 2rem 0;
+        z-index: -1;
     }
 
     main section {

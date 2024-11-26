@@ -198,7 +198,8 @@ footer a {
         max-width: fit-content;
         line-height: 0;
         border: 3px solid #00A0C6;
-        margin: 1rem 0;
+        margin: 0 1rem;
+        float: left;
     }
 
     .imageHtml img{
@@ -206,18 +207,107 @@ footer a {
         border: 3px solid #a02571;
     }
 
+    .introPar{
+        clear: none;
+    }
+
     article h1{
         font-size: 55px;
     }
 
-    section h2{
+    article h1 span{
+        background-image: url('/26:11/assets/img/underline.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 2rem 0;
+    }
+
+    main section {
+        position: relative;
+    }
+
+    main section p{
+        margin-top: 3rem;
+    }
+
+    main section h2{
+        margin: 0;
+    }
+
+    .new{
+        width: fit-content;
+        padding: 1rem 2rem;
         text-transform: none;
         background-color: #a3a3a3;
+        position: absolute;
+        bottom: 105px;
+        filter: drop-shadow(0 0 4px gray);
+    }
+
+    .facebook, 
+    .calendar, 
+    .top{
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+        background-color: #a3a3a3;
+        border: 2px solid gray;
+        opacity: 0.5;
+        border-radius: 5px;
+        position: fixed;
+        bottom: 10vh;
+        right: 40px;
+    }
+
+    .facebook{
+        background-image: url('/26:11/assets/img/facebook.png');
+        bottom: 25vh;
+    }
+
+    .calendar{
+        background-image: url('/26:11/assets/img/calendar.png');
+        bottom: 20vh;
+        
+    }
+
+    .top{
+        background-image: url('/26:11/assets/img/arrow.png');
+    }
+
+    .facebook a:hover
+    .calendar a:hover 
+    .top a:hover{
+        cursor: pointer;
+        background-color: #a02571;
+    }
+
+    .box1,
+    .box2,
+    .box3{
+        height: 20vh;
+    }
+
+    .treBox a,
+    .treBox i{
+        display: inline-block;
+    }
+    .fa-tag{
+        float: right;
+        color: #969494;
+        opacity: 0.5;
+        font-size: 80px;
     }
 
 }
 
 @media screen and (min-width: 992px){
+    
+    article h1{
+        width: 70%;
+    }
+    
     main article h2{
         font-size: 20px;
         font-weight: bold;
@@ -227,12 +317,23 @@ footer a {
         text-align: center;
         margin: 3rem auto;
     }
+
+    .new{
+        bottom: 90px;
+    }
 }
 
 @media screen and (min-width: 1200px){
     header{
         text-align: left;
         height: fit-content;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+    }
+
+    main{
+        z-index: 1;
     }
 
     header div img,
@@ -298,10 +399,15 @@ footer a {
         width: 50%;
     }
 
+    .new{
+        bottom: 220px;
+    }
+
     .box1,
     .box2,
     .box3{
-        width: 30vw; 
+        width: 30vw;
+        height: 18vh; 
         margin: 2rem 0;
         display: inline-block;
         vertical-align: top;
@@ -319,6 +425,16 @@ footer a {
         padding: 0;
         width: max-content;
         font-size: 0;
+    }
+
+    .facebook{
+        
+        top: 25vh;
+    }
+
+    .calendar{
+        top: 20vh;
+        
     }
 
 }

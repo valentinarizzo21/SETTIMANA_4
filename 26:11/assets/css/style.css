@@ -303,11 +303,11 @@ footer a {
 }
 
 @media screen and (min-width: 992px){
-    
+
     article h1{
         width: 70%;
     }
-    
+
     main article h2{
         font-size: 20px;
         font-weight: bold;
@@ -330,6 +330,10 @@ footer a {
         position: sticky;
         z-index: 2;
         top: 0;
+    }
+
+    article h1{
+        width: 100%;
     }
 
     main{

@@ -269,12 +269,19 @@ footer a {
 
     section form input{
         width: 80%;
+        border: 1px solid black;
+        margin-right: 1rem;
+    }
+
+    section form button,
+    section form input{
+        float: inline-end;
     }
 
     iframe, section{
         display: inline-block;
         vertical-align: top;
-        width: 550px;
+        width: 50%; /*meglio percentuale*/
         margin: 0;
         height: 250px;
     }
@@ -317,7 +324,15 @@ footer a {
 }
 
 @media print{
-    header, footer {
+    header, footer, .videoBox, aside {
         display: none;
+    }
+
+    main{
+        font-size: x-large;
+    }
+
+    .imageHtml{
+        float: left;
     }
 }

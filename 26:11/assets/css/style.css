@@ -221,6 +221,7 @@ footer a {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
+        padding: 1rem 0;
         z-index: -1;
     }
 

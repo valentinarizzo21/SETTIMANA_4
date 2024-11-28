@@ -37,6 +37,7 @@ main{
 span i{
     position: absolute;
     color: #a4a4ec;
+    padding-left: 1rem;
 	opacity: 0%;
     bottom: 100px;
 	animation-name: textAnimation;
@@ -58,11 +59,14 @@ span i{
 	}
 }
 
+
 .two{
     animation-delay: 4s;
+    color: blueviolet;
 }
 
 .three{
     animation-delay: 8s;
+    color: brown;
 }
 

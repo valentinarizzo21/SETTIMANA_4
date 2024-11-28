@@ -52,6 +52,9 @@ span i{
         bottom: 1rem;
 		opacity: 100%;
 	}
+    10%{
+        opacity: 50%;
+    }
 
 	to {
 		bottom: -80px;
